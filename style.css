@@ -1,0 +1,175 @@
+section{
+    background-image: url(./images/pexels-pixabay-207529.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sun{
+    position: relative;
+    left: 190px;
+
+
+}
+#merc{
+   border: 1px solid white;
+   transition: 9s ease 0s;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   left: 701px;
+   z-index: 9;
+
+}
+#merc img{
+    position: relative;
+    left: 20px;
+}
+#merc:hover{
+    transform: rotate(-360deg) ;
+    
+}
+#venus{
+    border: 1px solid white;
+   transition: 8s ease 0s;
+   width: 280px;
+   height: 280px;
+   position: relative;
+   right: 30px;
+    border-radius: 50%;
+    z-index: 8;
+}
+#venus img{
+    position: relative;
+    top: 150px;
+    right: 19px;
+    
+}
+#venus:hover{
+    transform: rotate(-360deg) ;
+    
+}
+#earth{
+    border: 1px solid white;
+   transition: 7s ease 0s;
+   width: 400px;
+   height: 400px;
+   position: absolute;
+   left: 595px;
+   border-radius: 50%;
+   z-index: 7;
+}
+#earth img{
+    position: relative;
+    top: 150px;
+    right: 19px;
+}
+#earth:hover{
+    transform: rotate(-360deg) ;
+    
+}
+#mars{
+    border: 1px solid white;
+   transition: 6s ease 0s;
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   left: 545px;
+   border-radius: 50%;
+   z-index: 6;
+}
+#mars img{
+    position: relative;
+    top: 150px;
+    right: 19px;
+}
+#mars:hover{
+    transform: rotate(-360deg) ;
+    
+}
+
+#jup{
+    border: 1px solid white;
+   transition: 5s ease 0s;
+   width: 600px;
+   height: 600px;
+   position: absolute;
+   left: 493px;
+   border-radius: 50%;
+   z-index: 5;
+}
+#jup img{
+    position: relative;
+    top: 150px;
+    right: 0px;
+}
+#jup:hover{
+    transform: rotate(-360deg) ;
+    
+}
+#sat{
+    border: 1px solid white;
+   transition: 4s ease 0s;
+   width: 750px;
+   height: 750px;
+   position: absolute;
+   left: 420px;
+   border-radius: 50%;
+   z-index: 4;
+}
+#sat img{
+    position: relative;
+    top: 150px;
+    right: 0px;
+}
+#sat:hover{
+    transform: rotate(-360deg) ;
+    
+}
+    
+
+#urn{
+    border: 1px solid white;
+   transition: 4s ease 0s;
+   width: 924px;
+   height: 924px;
+   position: absolute;
+   left: 333px;
+   border-radius: 50%;
+   z-index: 3;
+}
+#urn img{
+    position: relative;
+    top: 150px;
+    right: -78px;
+}
+#urn:hover{
+    transform: rotate(-360deg);
+    
+}
+
+    
+
+#nep{
+    border: 1px solid white;
+   transition: 4s ease 0s;
+   width: 1122px;
+   height: 1122px;
+   position: absolute;
+   left: 234px;
+   border-radius: 50%;
+   z-index: 2;
+}
+#nep img{
+    position: relative;
+    top: 150px;
+    right: -130px;
+}
+#nep:hover{
+    transform: rotate(-360deg);
+
+}
