@@ -1,5 +1,5 @@
 section {
-    background-image: url(./images/pexels-pixabay-207529.jpg);
+    /* background-image: url(../Solarsystem/images/space.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 160vh;
@@ -33,12 +33,14 @@ section {
 #merc img {
     position: relative;
     left: 20px;
+    transition: 10s ease-in-out 0s;
 }
 
 #merc:hover {
     transform: rotate(-360deg);
 
 }
+
 
 #venus {
     border: 1px solid white;
@@ -90,7 +92,7 @@ section {
 
 #mars {
     border: 1px solid white;
-    transition: 11s ease-in-out 2s;
+    transition: 11s ease-in-out 5s;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -113,7 +115,7 @@ section {
 
 #jup {
     border: 1px solid white;
-    transition: 30s ease-in-out 3s;
+    transition: 30s ease-in-out 7s;
     width: 600px;
     height: 600px;
     position: absolute;
@@ -136,7 +138,7 @@ section {
 
 #sat {
     border: 1px solid white;
-    transition: 90s ease-in-out 4s;
+    transition: 90s ease-in-out 9s;
     width: 750px;
     height: 750px;
     position: absolute;
@@ -160,7 +162,7 @@ section {
 
 #urn {
     border: 1px solid white;
-    transition: 50s ease-in-out 1s;
+    transition: 50s ease-in-out 10s;
     width: 924px;
     height: 924px;
     position: absolute;
@@ -185,7 +187,7 @@ section {
 
 #nep {
     border: 1px solid white;
-    transition: 100s ease-in-out 0s;
+    transition: 100s ease-in-out 12s;
     width: 1122px;
     height: 1122px;
     position: absolute;
