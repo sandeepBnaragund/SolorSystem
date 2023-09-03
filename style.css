@@ -1,5 +1,6 @@
-section {
-    /* background-image: url(../Solarsystem/images/space.jpg); */
+
+section{
+    background-image: url(./images/pexels-pixabay-207529.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 160vh;
@@ -7,208 +8,197 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#sun {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* transition: 10s ease-in-out 0s; */
+    z-index: 3;
     
 }
 
-#merc {
-    border: 1px solid white;
-    transition: 30s ease-in-out 0s ;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+#sun{
     position: absolute;
-
-    z-index: 9;
+    left: 730px;
+    
 
 }
+#merc{
+   border: 1px solid white;
+   transition: 9s ease 0s;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   left: 701px;
+   z-index: 9;
+   animation: rot 6s linear infinite;
 
-#merc img {
+}
+#merc img{
     position: relative;
     left: 20px;
-    transition: 10s ease-in-out 0s;
+    animation: rot 11s linear infinite;
 }
+/* #merc:hover{
+    transform: rotate(-360deg) ;
+    
+} */
 
-#merc:hover {
-    transform: rotate(-360deg);
-
-}
-
-
-#venus {
+#venus{
     border: 1px solid white;
-    transition: 50s ease 2s;
-    width: 280px;
-    height: 280px;
-    position: absolute;
-    right: -39px;
+   /* transition: 8s ease 0s; */
+   width: 280px;
+   height: 280px;
+   position: absolute;
+   left: 665px;
     border-radius: 50%;
     z-index: 8;
-    bottom: -42px;
+    animation: rot 4s linear infinite;
 }
-
-#venus img {
-    position: absolute;
-    top: 11px;
-    right: 50px;
-
-}
-
-#venus:hover {
-    transform: rotate(-360deg);
-
-}
-
-#earth {
-    border: 1px solid white;
-    transition: 23s ease-in-out 3s;
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    right: -60px;
-    bottom: -59px;
-    border-radius: 50%;
-    z-index: 7;
-}
-
-#earth img {
+#venus img{
     position: relative;
-    top: 51px;
+    top: 150px;
     right: 19px;
+    animation: rot 11s linear infinite;
+    
 }
+/* #venus:hover{
+    transform: rotate(-360deg) ;
+    
+} */
 
-#earth:hover {
-
-    transform: rotate(-360deg);
-
-}
-
-#mars {
+#earth{
     border: 1px solid white;
-    transition: 11s ease-in-out 5s;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: -52px;
-    right: -52px;
-    border-radius: 50%;
-    z-index: 6;
+   transition: 7s ease 0s;
+   width: 400px;
+   height: 400px;
+   position: absolute;
+   left: 595px;
+   border-radius: 50%;
+   z-index: 7;
+   animation: rot 15s linear infinite;
 }
-
-#mars img {
+#earth img{
     position: relative;
-    top: 373px;
+    top: 150px;
     right: 19px;
+    animation: rot 11s linear infinite;
 }
+/* #earth:hover{
+    transform: rotate(-360deg) ;
+    
+} */
 
-#mars:hover {
-    transform: rotate(-360deg);
-
-}
-
-#jup {
+#mars{
     border: 1px solid white;
-    transition: 30s ease-in-out 7s;
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    right: -48px;
-    top: -51px;
-    border-radius: 50%;
-    z-index: 5;
+   transition: 6s ease 0s;
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   left: 545px;
+   border-radius: 50%;
+   z-index: 6;
+   animation: rot 11s linear infinite;
 }
-
-#jup img {
+#mars img{
     position: relative;
-    top: 113px;
+    top: 150px;
+    right: 19px;
+    animation: rot 11s linear infinite;
+}
+/* #mars:hover{
+    transform: rotate(-360deg) ;
+    
+} */
+
+#jup{
+    border: 1px solid white;
+   transition: 5s ease 0s;
+   width: 600px;
+   height: 600px;
+   position: absolute;
+   left: 493px;
+   border-radius: 50%;
+   z-index: 5;
+   animation: rot 7s linear infinite;
+}
+#jup img{
+    position: relative;
+    top: 150px;
     right: 0px;
+    animation: rot 11s linear infinite;
 }
+/* #jup:hover{
+    transform: rotate(-360deg) ;
+    
+} */
 
-#jup:hover {
-    transform: rotate(-360deg);
-
-}
-
-#sat {
+#sat{
     border: 1px solid white;
-    transition: 90s ease-in-out 9s;
-    width: 750px;
-    height: 750px;
-    position: absolute;
-    top: -79px;
-    right: -75px;
-    border-radius: 50%;
-    z-index: 4;
+   transition: 4s ease 0s;
+   width: 750px;
+   height: 750px;
+   position: absolute;
+   left: 420px;
+   border-radius: 50%;
+   z-index: 4;
+   animation: rot 10s linear infinite;
 }
-
-#sat img {
+#sat img{
     position: relative;
-    top: 560px;
+    top: 150px;
     right: 0px;
+    animation: rot 11s linear infinite;
 }
+/* #sat:hover{
+    transform: rotate(-360deg) ;
+    
+} */
 
-#sat:hover {
-    transform: rotate(-360deg);
 
-}
-
-
-#urn {
+#urn{
     border: 1px solid white;
-    transition: 50s ease-in-out 10s;
-    width: 924px;
-    height: 924px;
-    position: absolute;
-    top: -85px;
-    right: -84px;
-    border-radius: 50%;
-    z-index: 3;
-}
+   transition: 4s ease 0s;
+   width: 924px;
+   height: 924px;
+   position: absolute;
+   left: 333px;
+   border-radius: 50%;
+   z-index: 3;
+   animation: rot 6s linear infinite;
 
-#urn img {
+}
+#urn img{
     position: relative;
-    top: 236px;
+    top: 150px;
     right: -78px;
+    animation: rot 11s linear infinite;
 }
-
-#urn:hover {
+/* #urn:hover{
     transform: rotate(-360deg);
+    
+} */
 
-}
+    
 
-
-
-#nep {
+#nep{
     border: 1px solid white;
-    transition: 100s ease-in-out 12s;
-    width: 1122px;
-    height: 1122px;
-    position: absolute;
-    top: -100px;
-    right: -100px;
-    border-radius: 50%;
-    z-index: 2;
+   transition: 4s ease 0s;
+   width: 1122px;
+   height: 1122px;
+   position: absolute;
+   left: 234px;
+   border-radius: 50%;
+   z-index: 2;
+   animation: rot 9s linear infinite;
 }
-
-#nep img {
+#nep img{
     position: relative;
-    top: 759px;
+    top: 150px;
     right: -130px;
+    animation: rot 11s linear infinite;
 }
-
-#nep:hover {
+/* #nep:hover{
     transform: rotate(-360deg);
 
+} */
 
-}
-
-#sun:hover {
-    transform: rotate(-360deg);
+@keyframes rot {
+    100%{transform: rotate(-360deg);}
 }
